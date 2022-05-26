@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title>Wayne enterprise</title>
+    </head>
+    <style>
+        body {
+        margin: 0px;
+        }
+        .container {
+        width: 100vw;
+        height: 100vh;
+        background: #14171a;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+        .box1, .box2 {
+        width: 480px;
+        height: 550px;
+        background: #f6f6f6;
+        }
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        header {
+            display: flex;
+            margin: 5px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            justify-content: space-between;
+        }
+        main {
+            margin: 10px;
+            white-space: normal;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .principal {
+            width: 300px;
+            height: 220px;
+            font-size: 50px;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            left: 40px;
+        }
+        .wayne-logo {
+            right: 0;
+            max-width:100px;
+            max-height:200px;
+            width: auto;
+            height: auto;
+
+        }
+        footer {
+            display: flex;
+            margin: 10px;
+            position: relative;
+        }
+        p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .buttom {
+            color: #f6f6f6;            
+            display: inline;
+            margin: 10px;
+            padding: 17px;
+            background-color: black;
+        }
+        .try {
+            color: rgb(0, 0, 0);            
+            right: 0;
+            margin: 10px;
+            padding: 17px;
+            background-color: #f6f6f6;
+        }
+        .box2 {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            max-width: 480px;
+            max-height: 600px;
+            width: auto;
+            height: auto;   
+        }
+        </style>
+    <body>
+        <div class="container">
+            <div class="box1">
+                <header>
+                    <img class="wayne-logo" src="wayne-logo.png">
+                    <p>Sign up</p>
+                </header>
+                <main>
+                    <p class="principal">People who cares about your growth</p>
+                    
+                </main>
+                <footer>
+                    <p class="buttom">Get started</p>
+                    <p class="try">Try plataform for free</p>
+                </footer>
+            </div>
+            <div class="box2">
+                <img src="box2.jpg">
+            </div>
+        </div>
+    </body>
+</html>
