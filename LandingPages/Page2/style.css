@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 960px;
+    height: 600px;
+    background: #d0cfbb;
+    position: absolute;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+li {
+    position: relative;
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+}
+/*Estilização de texto*/
+li, .wallet {
+    font-size: 16px;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    width: 330px;
+
+}
+.descricao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.botao {
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+.caixas {
+    padding-inline:70px;
+    display: flex;
+    justify-content: space-between;
+}
+.NFT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NFT li {
+    margin-left: auto;
+    margin-right: auto;
+}
+.borda {
+    display: inline-flex;
+    height: 50px;
+    margin-right: -40px;
+    border-left: 1px solid black;
+}
